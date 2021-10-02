@@ -1,5 +1,6 @@
 package com.entradadedados;
 
+import java.util.Locale;
 import java.util.Scanner;
 
 public class Main {
@@ -9,9 +10,9 @@ public class Main {
 
         System.out.println("Type an string and a integer");
 
-        String x = sc.next();
-        int y = sc.nextInt();
-
+        String x = sc.nextLine().trim();
+        int y;
+        y = sc.nextInt();
         sc.close();
 
         System.out.println("You typed: " + x + " and " + y);
